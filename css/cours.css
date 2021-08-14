@@ -1,0 +1,267 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #222f3e;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top:0;
+  padding-top: 0;
+}
+
+nav ul li {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #222f3e;
+  transition: background 0.5s ease-in-out;
+
+}
+nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: right;
+  padding: 0;
+  width: 80%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+nav img {
+  width: 10%;
+}
+nav img, nav ul {
+  display: inline-block;
+}
+
+header {
+  background-image: url('../img/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-position-y: 0;
+  position: relative;
+  top: 50px;
+  height: 45vh;
+  width: 100%;
+}
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 10px 2px 30px rgba(0, 0, 0, 1);
+  color: white;
+  position: relative;
+  top: 20%;
+}
+section {
+  position: relative;
+  top: 5vh;
+  background-color:#0a3d62;
+  height: 160vh;
+}
+
+
+section h2 {
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+  padding-top: 20px;
+  text-align: center;
+}
+section p {
+  color: white;
+  text-align: center;
+}
+.title {
+  background-color: #576574;
+  border: 1px solid white;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  height: 18.5vh;
+}
+.title p {
+  font-size: 10px;
+
+
+}
+.container {
+  padding-top: 50px;
+  text-align: center;
+  height: 130vh;
+}
+.col {
+  padding-bottom: 30px;
+  height: 53vh;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 10%;
+}
+.col:hover {
+    box-shadow: 10px 2px 30px rgba(0, 0, 0, 2);
+}
+.title h2 p {
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+.title {
+  transition: background 0.5s ease-in-out;
+}
+.title:hover {
+  background-color: #222f3e;
+  color : white;
+}
+#one, #two, #three, #four, #five, #six {
+  height: 218px;
+  border: 1px solid white;
+}
+#one {
+  background-image: url('../img/one.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#two{
+  background-image: url('../img/two.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#three {
+  background-image: url('../img/three.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#four {
+  background-image: url('../img/four.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#five {
+  background-image: url('../img/five.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#six {
+  background-image: url('../img/six.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section a {
+  text-decoration: none;
+  padding: 0;
+}
+footer {
+  position: relative;
+  top: 0px;
+  background-color:black;
+  color: white;
+  height: 30vh;
+}
+footer.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+footer h3 {
+  font-size: 35px;
+  padding-top: 15px;
+  text-align: center;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
+.p1 {
+  font-style: italic;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (max-width : 500px)
+{
+  nav img, nav ul {
+    display: block;
+  }
+  nav img {
+    position: relative;
+    left: 40%;
+    width: 30%;
+  }
+  nav ul {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 0;
+    display: inline;
+  }
+  nav ul li {
+    font-size: 10px;
+  }
+
+header h1 {
+  font-size: 70px;
+  margin: 20px;
+}
+section h2 {
+    font-size: 30px;
+  }
+   p {
+     font-size: 15px;
+  }
+
+}
+@media screen and (min-width : 500px) and (max-width : 700px)
+{
+  nav img, nav ul {
+    display: block;
+  }
+  nav img {
+    position: relative;
+    left: 40%;
+    width: 20%;
+  }
+  nav ul {
+    text-align: center;
+    display: inline;
+  }
+}
+@media screen and (max-width : 997px) {
+  section {
+    height: 210vh;
+  }
+  .col {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  header {
+    position: relative;
+    top: 70px;
+  }
+
+}

@@ -1,0 +1,296 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #222f3e;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top:0;
+  padding-top: 0;
+}
+
+nav ul li {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #222f3e;
+  transition: background 0.5s ease-in-out;
+
+}
+nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: right;
+  padding: 0;
+  width: 80%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+nav img {
+  width: 10%;
+}
+nav img, nav ul {
+  display: inline-block;
+}
+header {
+  background-color: #cc8e35;
+  position: relative;
+  top: 50px;
+  height: 50vh;
+  width: 100%;
+}
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10vh;
+  text-shadow: 10px 2px 30px rgba(0, 0, 0, 1);
+}
+section {
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+.nav {
+    background-color: #222f3e;
+    width: 100%;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    position: sticky;
+    z-index: 1;
+    letter-spacing: 1px;
+    padding-top: 0;
+}
+.nav ul li {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #222f3e;
+  transition: background 0.5s ease-in-out;
+}
+.nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+.nav ul {
+  margin: 0 auto;
+  text-align: right;
+  padding: 0;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s ease-in-out;
+}
+.nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+.nav2 {
+  background-color: #576574;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top:0;
+  padding-top: 0;
+  position: sticky;
+  top: 100px;
+  z-index: 1;
+
+}
+.nav2 ul li {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #576574;
+  transition: background 0.5s ease-in-out;
+}
+.nav2 ul li:hover {
+  background-color: white;
+  color: black;
+}
+.nav2 ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  color: white;
+  transition: background 0.5s ease-in-out;
+}
+.nav2 ul li a:hover {
+  background-color: white;
+  color: black;
+}
+.content {
+  background-color: #0a3d62;
+  position: relative;
+  top: 0px;
+  width: 100%;
+
+}
+.content h2 {
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+  padding-top: 20px;
+  text-align: center;
+}
+.content h3 {
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  padding-top: 5px;
+  text-align: center;
+  line-height: 150%;
+}
+.content p {
+  text-align: center;
+  color: white;
+}
+.col {
+  background-color: #8395a7;
+  border: 1px solid black;
+  margin: 20px 30px;
+  border-radius: 15px;
+  color: white;
+  width: 85%;
+
+}
+.col:hover {
+  background-color: #c8d6e5;
+  box-shadow: 10px 2px 30px rgba(0, 0, 0, 1);
+}
+.col img{
+  margin: 5% 45%;
+  width: 15%;
+}
+.col p {
+  margin-bottom: 5px;
+}
+section a {
+  text-decoration: none;
+}
+footer {
+  position: relative;
+  top: 0px;
+  background-color:black;
+  color: white;
+  height: 30vh;
+}
+footer.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+footer h3 {
+  font-size: 35px;
+  padding-top: 15px;
+  text-align: center;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
+.p1 {
+  font-style: italic;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (max-width : 500px)
+{
+  nav img, nav ul {
+    display: block;
+  }
+  nav img {
+    position: relative;
+    left: 40%;
+    width: 30%;
+  }
+  nav ul {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline;
+  }
+  nav ul li {
+    font-size: 10px;
+  }
+  header h1 {
+    font-size: 300%;
+    position: relative;
+    top: 200px;
+  }
+  header {
+    position: relative;
+    top: 10px;
+  }
+
+
+
+  .content h2 {
+    font-size: 30px;
+  }
+   p {
+     font-size: 15px;
+  }
+
+}
+@media screen and (min-width : 500px) and (max-width : 700px)
+{
+  nav img, nav ul {
+    display: block;
+  }
+  nav img {
+    position: relative;
+    left: 40%;
+    width: 20%;
+  }
+  nav ul {
+    text-align: center;
+    display: inline;
+
+  }
+  header h1 {
+  font-size: 300%;
+  position: relative;
+  top: 200px;
+  }
+  header {
+    position: relative;
+    top: 0px;
+
+  }
+
+
+}
